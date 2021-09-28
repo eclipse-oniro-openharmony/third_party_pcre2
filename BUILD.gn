@@ -36,7 +36,7 @@ ohos_shared_library("libpcre2") {
   ]
   include_dirs = [
     "$PCRE2_ROOT_DIR/include_internal",
-    "$PCRE2_ROOT_DIR/pcre/include",
+    "$PCRE2_ROOT_DIR/include",
   ]
   cflags = [
     "-D_GNU_SOURCE",
@@ -44,4 +44,5 @@ ohos_shared_library("libpcre2") {
     "-w",
   ]
   part_name = "pcre2"
+  subsystem_name = "security"
 }
