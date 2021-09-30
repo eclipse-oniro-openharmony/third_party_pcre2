@@ -43,6 +43,6 @@ ohos_shared_library("libpcre2") {
     "-DHAVE_CONFIG_H",
     "-w",
   ]
-  part_name = "pcre2"
+  part_name = "selinux"
   subsystem_name = "security"
 }
